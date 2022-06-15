@@ -22,3 +22,5 @@
 * Persistances des données, gestion des transactions
     
 * Versions (web, mobile, desktop...)
+
+## Exigences Financières
