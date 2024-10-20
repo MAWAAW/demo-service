@@ -4,6 +4,15 @@ import dao.IDao;
 
 public class BusinessImpl implements IBusiness {
     private IDao dao;
+
+    /*
+     * Inject inside dao variable an object of
+     * a class who implements IDao interface
+     * */
+    public BusinessImpl(IDao dao) {
+        this.dao = dao;
+    }
+
     @Override
     public double compute() {
         /*
@@ -13,13 +22,5 @@ public class BusinessImpl implements IBusiness {
         double result = dao.getData();
         result = result + Math.random()*Math.PI;
         return result;
-    }
-
-    /*
-    * Inject inside dao variable an object of
-    * a class who implements IDao interface
-    * */
-    public void setDao(IDao dao) {
-        this.dao = dao;
     }
 }

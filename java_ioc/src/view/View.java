@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class View {
     public static void main(String[] args) throws Exception {
-        // Static injection of dependencies with new
+        // Static injection of dependencies => with new
         // Dynamic injection of dependencies => We specify which DAO should be used in config.txt
         Scanner scanner=new Scanner(new File("config.txt"));
 

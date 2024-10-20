@@ -14,7 +14,7 @@
         
 * Maintenance: l'application doit être facile à maintenir
     
-    * Une application doit évaluer dans le temps
+    * Une application doit évoluer dans le temps
     * L'application doit être __fermée à la modification__ et __ouverte à l'extension__
 
 * Sécurité
