@@ -24,3 +24,11 @@
 * Versions (web, mobile, desktop...)
 
 ## Exigences Financières
+
+* Satisfaire le __budget__ de l'entreprise
+
+
+# Inversion of control & Dependency Injection architecture
+
+![open-closed-SOLID-principle](open-closed-SOLID-principle.JPG)
+*Illustration du Open-Closed principle de SOLID* 
